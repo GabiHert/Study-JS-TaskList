@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+:root
+{
+    --primary-color: rgb(94, 136, 138);
+    --primary-color-dark: rgb(138, 165, 122);
+}
+*{
+    box-sizing: border-box;
+    outline: 0;
+ }
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background:var(--primary-color);
+    font-family: "Roboto Condensed";
+    font-size: 20px;
+    line-height: 3em;
+}
+
+.container
+{
+    max-width: 640px;
+    margin: 60px auto;
+    background: rgb(127, 197, 168);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input,form label,form button 
+{   
+    display: block;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+form input
+{
+    font-size: 20px;
+    height: 40px;
+    padding: 0 10px;
+    width: 70%;
+    border-radius: 10px;
+    background: rgb(212, 222, 231);
+}
+form input:focus
+{
+    outline: 1px solid var(--primary-color-dark) ;
+}
+button
+{
+    border: none;
+    background: var(--primary-color);
+    color: seashell;
+    font-size: 18px;
+    font-weight: 700;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+form button:hover
+{
+    background: var(--primary-color-dark);
+}
