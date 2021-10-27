@@ -23,7 +23,7 @@
 * __atribute__ can be a "class" for ex.
 
 &nbsp;
-## Remove Elements
+## Remove Elements in HTML
 ~~~ javascript
 document.addEventListener("click",function(element){
 
